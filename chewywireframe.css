@@ -18,23 +18,31 @@ body {
     justify-content: center;
     padding: 1rem;
 }
+.container{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: auto;
+}
 
 header2 {
     background-color: var(--gray);
     height: 40pt;
     border: solid black 1pt;
 }
-header {background-color: var(--gray);
-height: 5pt;
-  width: 700pt;
-}
+
 
 main {
     background-color: var(--gray);
     min-height: 40vh;
+  max-width: 2000px;
   border: solid black 1pt;
   width: 100%;
   height: 250pt;
+  margin: auto;
+  
 }
 
 logo{ 
@@ -66,39 +74,34 @@ navigation {
     border: solid black 1pt;
     height: 10pt;
     width: 550pt;
-  margin-left: 80pt;
-  margin-right: 40pt;
+  margin-left: 475pt;
+  margin-right: auto;
   margin-bottom: 10pt;
 }
-.dot {
-  height: 100pt;
-  width: 100pt;
-  background-color: gray;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 5pt;
-  margin-left: 40pt;
-  margin-right: 20pt;
-  margin-bottom: 10pt;
+pet {border: solid black 1pt;
+  background-color: var(--gray); 
+  width: 120pt;
+  height: 120pt;
+  margin:auto;
+  margin-bottom: 20pt;
 }
-.dot2 {
-  height: 110pt;
-  width: 110pt;
-  background-color: gray;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 5pt;
-  margin-left: 40pt;
-  margin-right: 35pt;
-  margin-bottom: 5pt;
+fav {border: solid black 1pt;
+  background-color: var(--gray); 
+  width: 120pt;
+  height: 120pt;
+  margin:auto;
+  margin-top: 0pt;
+  margin-bottom: 15pt
+ 
 }
 p {
-  margin-left: 80pt;
-  margin-right: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
   font-size: 20pt;
 }
 p2 {font-size: 12pt;
-  margin-left: 90pt;
+  margin-left: auto;
   margin-right: 340pt;
 
   
@@ -107,21 +110,20 @@ p3{font-size: 12pt;
 margin-left: 40pt;
 margin-right: 52pt}
 p4{font-size: 12pt;
-margin-left: 60pt;
-margin-right: 55pt}
+margin-left:250pt;}
 
 puppy {
     background-color: var(--gray); 
     border: solid black 1pt;
     height: 120pt;
     width: 45%;
-  margin-left: 40pt;
+  margin-left: auto;
   margin-top: 0pt;
 }
 kitten {
     background-color: var(--gray); 
     border: solid black 1pt;
-  margin-left: 30pt;
+  margin-left: auto;
   margin-top: 0pt;
     height: 120pt;
   width: 45%;
@@ -131,20 +133,21 @@ brandimages {
     border: solid black 1pt;
     height: 120pt;
     justify: center;
-  max-width: 100%;
-  margin-left: 80pt;
-  margin-right: 80pt;
+  max-width: 55%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: pt;
+  margin-bottom: 10pt;
 }
 email {
     background-color: var(--gray); 
     border: solid black 1pt;
     height: 80pt;
     justify: center;
-  max-width: 100%;
-  margin-left: 80pt;
+  max-width: 1420px;
+  margin-left: 100pt;
   margin-right: 80pt;
-  margin-top: 20pt;
+  margin-top: 0pt;
 }
 product {background-color: var(--gray);
   border: solid black 1pt;
@@ -189,4 +192,20 @@ width:100%;
   border: solid black 1pt;
 }
 
+@media screen and (min-width: 768px) {
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1400px;		
+	}
+}
 
+@media screen and (min-width: 1024px) {
+    /* Add Laptop Content Here */
+}
+
+@media screen and (min-width: 1200px) {
+    /* Add Desktop Content Here */
+}
