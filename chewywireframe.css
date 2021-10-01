@@ -189,20 +189,4 @@ width:100%;
   border: solid black 1pt;
 }
 
-@media screen and (min-width: 768px) {
-	.wrapper{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 1400px;		
-	}
-}
 
-@media screen and (min-width: 1024px) {
-    /* Add Laptop Content Here */
-}
-
-@media screen and (min-width: 1200px) {
-    /* Add Desktop Content Here */
-}
