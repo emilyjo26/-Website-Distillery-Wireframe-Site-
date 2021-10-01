@@ -66,49 +66,49 @@ navigation {
     border: solid black 1pt;
     height: 10pt;
     width: 550pt;
-  margin-left: 40pt;
+  margin-left: 80pt;
   margin-right: 40pt;
   margin-bottom: 10pt;
 }
 .dot {
-  height: 90pt;
-  width: 90pt;
+  height: 100pt;
+  width: 100pt;
   background-color: gray;
   border-radius: 50%;
   display: inline-block;
   margin-top: 5pt;
-  margin-left: 20pt;
+  margin-left: 40pt;
   margin-right: 20pt;
-  margin-bottom: 30pt;
+  margin-bottom: 10pt;
 }
 .dot2 {
-  height: 90pt;
-  width: 90pt;
+  height: 110pt;
+  width: 110pt;
   background-color: gray;
   border-radius: 50%;
   display: inline-block;
   margin-top: 5pt;
-  margin-left: 30pt;
-  margin-right: 30pt;
+  margin-left: 40pt;
+  margin-right: 35pt;
   margin-bottom: 5pt;
 }
 p {
-  margin-left: 40pt;
+  margin-left: 80pt;
   margin-right: 30pt;
   font-size: 20pt;
 }
 p2 {font-size: 12pt;
-  margin-left: 40pt;
-  margin-right: 310pt;
+  margin-left: 90pt;
+  margin-right: 340pt;
 
   
 }
 p3{font-size: 12pt;
 margin-left: 40pt;
-margin-right: 20pt}
+margin-right: 52pt}
 p4{font-size: 12pt;
-margin-left: 40pt;
-margin-right: 41pt}
+margin-left: 60pt;
+margin-right: 55pt}
 
 puppy {
     background-color: var(--gray); 
@@ -121,7 +121,7 @@ puppy {
 kitten {
     background-color: var(--gray); 
     border: solid black 1pt;
-  margin-right: 40pt;
+  margin-left: 30pt;
   margin-top: 0pt;
     height: 120pt;
   width: 45%;
@@ -132,9 +132,9 @@ brandimages {
     height: 120pt;
     justify: center;
   max-width: 100%;
-  margin-left: 40pt;
-  margin-right: 40pt;
-  margin-top: 10pt;
+  margin-left: 80pt;
+  margin-right: 80pt;
+  margin-top: pt;
 }
 email {
     background-color: var(--gray); 
@@ -142,16 +142,16 @@ email {
     height: 80pt;
     justify: center;
   max-width: 100%;
-  margin-left: 40pt;
-  margin-right: 40pt;
+  margin-left: 80pt;
+  margin-right: 80pt;
   margin-top: 20pt;
 }
 product {background-color: var(--gray);
   border: solid black 1pt;
   height: 200pt;
   width: 150pt;
-  margin-left: 30pt;
-  margin-right: 1pt;
+  margin-left: 50pt;
+  margin-right: 3pt;
   margin-top: 50pt;
 }
 vetinfo {
@@ -159,8 +159,7 @@ vetinfo {
     border: solid black 1pt;
     height: 120pt;
     width: 45%;
-  margin-right: 40pt;
-  margin-top: 0pt;
+  margin-left: 30pt;
 }
 pharmacy {
     background-color: var(--gray); 
@@ -168,17 +167,16 @@ pharmacy {
     height: 120pt;
     width: 45%;
   margin-left: 40pt;
-  margin-top: 0pt;
-  margin-bottom: ;
+  margin-bottom: 5pt;
 }
 explore{background-color: var(--gray);
   border: solid black 1pt;
   height: 100pt;
   width: 100pt;
-  margin-top: 10pt;
-  margin-right: 25pt;
-  margin-left: 28pt;
-  margin-bottom: 20pt;
+  margin-top: 0pt;
+  margin-right: 28pt;
+  margin-left: 45pt;
+  margin-bottom: 30pt;
 }
 help{border: solid black 1pt;
   background-color: var(--gray);
