@@ -1,0 +1,210 @@
+:root {
+    --gray: #CDCCCC;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header2 {
+    background-color: var(--gray);
+    height: 40pt;
+    border: solid black 1pt;
+}
+header {background-color: var(--gray);
+height: 5pt;
+  width: 700pt;
+}
+
+main {
+    background-color: var(--gray);
+    min-height: 40vh;
+  border: solid black 1pt;
+  width: 100%;
+  height: 250pt;
+}
+
+logo{ 
+    background-color: var(--gray);
+  border: solid black 1pt;
+  width: 70pt;
+  height: 10pt; 
+  margin-left: 40pt;
+  margin-right: 20pt;
+}
+
+search {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 10pt;
+    width: 380pt;
+  margin-right: 20pt;
+}
+account {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 10pt;
+    width: 350pt;
+  margin-right: 10pt;
+  margin-bottom: 10pt;
+}
+navigation {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 10pt;
+    width: 550pt;
+  margin-left: 40pt;
+  margin-right: 40pt;
+  margin-bottom: 10pt;
+}
+.dot {
+  height: 90pt;
+  width: 90pt;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5pt;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  margin-bottom: 30pt;
+}
+.dot2 {
+  height: 90pt;
+  width: 90pt;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 5pt;
+  margin-left: 30pt;
+  margin-right: 30pt;
+  margin-bottom: 5pt;
+}
+p {
+  margin-left: 40pt;
+  margin-right: 30pt;
+  font-size: 20pt;
+}
+p2 {font-size: 12pt;
+  margin-left: 40pt;
+  margin-right: 310pt;
+
+  
+}
+p3{font-size: 12pt;
+margin-left: 40pt;
+margin-right: 20pt}
+p4{font-size: 12pt;
+margin-left: 40pt;
+margin-right: 41pt}
+
+puppy {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 120pt;
+    width: 45%;
+  margin-left: 40pt;
+  margin-top: 0pt;
+}
+kitten {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+  margin-right: 40pt;
+  margin-top: 0pt;
+    height: 120pt;
+  width: 45%;
+}
+brandimages {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 120pt;
+    justify: center;
+  max-width: 100%;
+  margin-left: 40pt;
+  margin-right: 40pt;
+  margin-top: 10pt;
+}
+email {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 80pt;
+    justify: center;
+  max-width: 100%;
+  margin-left: 40pt;
+  margin-right: 40pt;
+  margin-top: 20pt;
+}
+product {background-color: var(--gray);
+  border: solid black 1pt;
+  height: 200pt;
+  width: 150pt;
+  margin-left: 30pt;
+  margin-right: 1pt;
+  margin-top: 50pt;
+}
+vetinfo {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 120pt;
+    width: 45%;
+  margin-right: 40pt;
+  margin-top: 0pt;
+}
+pharmacy {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 120pt;
+    width: 45%;
+  margin-left: 40pt;
+  margin-top: 0pt;
+  margin-bottom: ;
+}
+explore{background-color: var(--gray);
+  border: solid black 1pt;
+  height: 100pt;
+  width: 100pt;
+  margin-top: 10pt;
+  margin-right: 25pt;
+  margin-left: 28pt;
+  margin-bottom: 20pt;
+}
+help{border: solid black 1pt;
+  background-color: var(--gray);
+  margin-top: 15pt;
+  width:100%;
+  height: 50pt;
+}
+navigationbottom{background-color: var(--gray);
+width:100%;
+  border: solid black 1pt;
+}
+
+@media screen and (min-width: 768px) {
+	.wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1400px;		
+	}
+}
+
+@media screen and (min-width: 1024px) {
+    /* Add Laptop Content Here */
+}
+
+@media screen and (min-width: 1200px) {
+    /* Add Desktop Content Here */
+}
