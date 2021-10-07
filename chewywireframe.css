@@ -133,9 +133,8 @@ brandimages {
     border: solid black 1pt;
     height: 120pt;
     justify: center;
-  max-width: 55%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 120pt;
+  margin-right: 120pt;
   margin-top: pt;
   margin-bottom: 10pt;
 }
@@ -202,10 +201,10 @@ width:100%;
 	}
 }
 
-@media screen and (min-width: 1024px) {
-    /* Add Laptop Content Here */
+@media screen and (min-width: 768px) {
+  navigation{
+    display:none;
+  }
 }
 
-@media screen and (min-width: 1200px) {
-    /* Add Desktop Content Here */
-}
+
